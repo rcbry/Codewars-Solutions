@@ -1,7 +1,0 @@
-int evaporator(double content, double evap_per_day, double threshold)
-{
-    int n = 0;
-    for(double total_Lost = content * (threshold/100); content > total_Lost; n++)
-      content -= content * (evap_per_day/100);
-    return n;
-}
