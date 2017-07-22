@@ -1,6 +1,6 @@
 #include <stddef.h>
 
-int elimination(const int *arr, size_t arr_size, int* result)
+int elimination(const int *arr, size_t arr_size, int *result)
 {
   if (arr == NULL || result == NULL || arr_size == 0) return 0;
   else
